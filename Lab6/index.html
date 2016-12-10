@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>API's info</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+  </head>
+  <body>
+
+<fieldset>
+    <legend>Show resturants around: You have to use an extension (Allow-Control-Allow-Original)</legend>
+    <lable for="address"> Enter your Address: </lable>
+    <input type="text" value="550 N Figueroa Street" id="address">
+    <label for ="apiKey">API Key: </label>
+    <input type="text" value ="AIzaSyDCZLnth55Dxrylq_q9Mq2vWLnKoJNdZaA" id="apiKey"><br>
+    <button id="button"> Get data </button>
+</fieldset>
+
+    <div id="loading"> </div>
+
+   <div>
+     <ul id="table"></ul>
+     </div>
+
+<table id="info">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Rating</th>
+    <th>OpenNow</th>
+  <!--  <th>Show Map</th> -->
+  </tr>
+</table>
+
+
+<fieldset>
+  <legend>Show food nutrient</legend>
+   <lable for="nutrient"> Enter Nutrient: </lable>
+    <input type="text" value="Milk" id="address">
+
+    <label for ="apiKey2">API Key: </label>
+    <input type="text" value="jifDC6WZRVpZsVkkwFJROkoULNb6tyUhyXwSIuir" id="apiKey2"><br>
+    <button id="button2">Get data </button>
+</fieldset>
+
+<table id="food">
+  <tr>
+    <th>Nutrient id</th>
+    <th>Nutrient Name</th>
+    <th>Group</th>
+    <th>Value</th>
+  </tr>
+</table>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/nutrient.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/script.js"></script> 
+
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCZLnth55Dxrylq_q9Mq2vWLnKoJNdZaA&callback=initMap">
+    </script>-->
+    
+  </body>
+</html>
