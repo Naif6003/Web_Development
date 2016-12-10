@@ -1,0 +1,31 @@
+/*Your css code here*/
+
+
+.grid { 
+margin: 1em auto; 
+border-collapse:collapse 
+
+}
+.grid td {
+    cursor: pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px
+
+}
+.grid td.clicked {
+    font-weight:bold; color:red;
+
+}
+.img{
+	width: 150px;
+	height: 150px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #f44336;
+
+}
